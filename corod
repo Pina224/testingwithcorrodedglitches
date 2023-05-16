@@ -8034,7 +8034,7 @@ Lifetime = 1.3,
 		LWP2W.C0 = LWP2W.C0:lerp(CF.N(-3+3*M.C(WingSine/32),9,-1)*CF.A(M.R(-25+5*M.C(WingSine/32)+0*M.C(WingSine/32)),0,M.R(-180+-50*(WingSine/64))),1) -- RainbowGodSword
 		LWP3W.C0 = LWP3W.C0:lerp(CF.N(-3+3*M.C(WingSine/32),3,-1)*CF.A(M.R(-25+5*M.C(WingSine/32)),0,M.R(-180+-50*(WingSine/64))),1) -- DemonLordSword
 
-		RWP1W.C0 = RWP2W.C0:lerp(CF.N(-3+3*M.C(WingSine/32),3,-1)*CF.A(M.R(-25+5*M.C(WingSine/32)),0,M.R(90+-50*(WingSine/64))),1) -- AuroraSword
+		RWP1W.C0 = RWP2W.C0:lerp(CF.N(-6+3*M.C(WingSine/32),3,-1)*CF.A(M.R(-25+5*M.C(WingSine/32)),0,M.R(90+-50*(WingSine/64))),1) -- AuroraSword
 		RWP2W.C0 = RWP2W.C0:lerp(CF.N(-3+3*M.C(WingSine/32),9,-1)*CF.A(M.R(-25+5*M.C(WingSine/32)),0,M.R(0+-50*(WingSine/64))),1) -- VoidLordSword
 		RWP3W.C0 = RWP3W.C0:lerp(CF.N(-3+3*M.C(WingSine/32),3,-1)*CF.A(M.R(-25+5*M.C(WingSine/32)),0,M.R(0+-50*(WingSine/64))),1) -- CorruptLordSword
 		--SPIN
