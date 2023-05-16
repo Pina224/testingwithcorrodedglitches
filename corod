@@ -8029,11 +8029,7 @@ Lifetime = 1.3,
 					end
 				end
 				
-				elseif(Mode=='GLITCHED')then
-				local Alpha = .1
-				if(NeutralAnims)then
-
-                    WingAnims.archsword=function()
+				elseif(Mode=='GLITCHED')then WingAnims.archsword=function()
 		LWP1W.C0 = LWP2W.C0:lerp(CF.N(-3+3*M.C(WingSine/32),3,-1)*CF.A(M.R(-25+5*M.C(WingSine/32)+0*M.C(WingSine/32)),0,M.R(-90+-50*(WingSine/64))),1) -- DemonGodSword
 		LWP2W.C0 = LWP2W.C0:lerp(CF.N(-3+3*M.C(WingSine/32),9,-1)*CF.A(M.R(-25+5*M.C(WingSine/32)+0*M.C(WingSine/32)),0,M.R(-180+-50*(WingSine/64))),1) -- RainbowGodSword
 		LWP3W.C0 = LWP3W.C0:lerp(CF.N(-3+3*M.C(WingSine/32),3,-1)*CF.A(M.R(-25+5*M.C(WingSine/32)),0,M.R(-180+-50*(WingSine/64))),1) -- DemonLordSword
@@ -8045,6 +8041,10 @@ Lifetime = 1.3,
 		RWP4W.C0 = RWP4W.C0:lerp(CF.N(0*M.C(WingSine/62),-1.64+0*M.S(WingSine/42),-1.2)*CF.A(0,0,M.R(-0-950*M.C(WingSine/400))),.2)
 	RWP5W.C0 = RWP5W.C0:lerp(CF.N(0*M.C(WingSine/62),0-0*M.S(WingSine/42),-2)*CF.A(0,0,M.R(-0+950*M.C(WingSine/200))),.2)
 	end
+				local Alpha = .1
+				if(NeutralAnims)then
+
+                    
 				    
 				     local HCF = Root.CFrame * CF.N(math.random(-30,30),-4,(math.random(-30,30))) * CF.A(M.R(math.random(-20,20)),M.R(math.random(-20,20)),M.R(math.random(-20,20)))
 Effect({
